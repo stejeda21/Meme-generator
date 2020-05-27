@@ -1,0 +1,78 @@
+/* CSS Properties for the div */
+
+#upperText {
+    background-color: transparent;
+    font-size: 40px;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    position: absolute;
+    top: 8px;
+    text-align: center;
+    width: 50%;
+}
+
+#lowerText {
+    background-color: transparent;
+    font-size: 40px;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    width: 50%;
+}
+
+#meme {
+    position: relative;
+}
+
+img {
+    height: 500px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* Styling the rest of the website */
+
+#top-section {
+    background-color: #3aaae1;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+#add-meme {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+}
+
+label {
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#meme {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}

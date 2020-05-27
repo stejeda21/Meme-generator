@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+
+
+</head>
+
+<body>
+    <section id="top-section">
+        <h1>Generate a Meme!</h1>
+        <h4>Fill out the forms to start generating memes!</h4>
+
+        <form action="" id="text-form">
+            <p>
+                <label for="image">Image URL:
+                    <input type="text" placeholder="Place image URL here" id="img" size="250">
+
+            </p>
+
+            <p>
+                <label for="Upper Text">Upper Text:
+                    <input type="text" placeholder="Enter text for the top of the meme"
+                     id="upper-text" maxlength="30" size="250">
+            </p>
+
+            <p>
+                <label for="Lower Text">Lower Text:
+                    <input type="text" placeholder="Enter text for the bottom of the meme"
+                     id="lower-text" maxlength="30" size="250">
+            </p>
+            <button id="add-meme">Generate Meme</button>
+    </section>
+    </form>
+
+    <div id="allMemes"></div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
